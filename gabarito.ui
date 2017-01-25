@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gabarito</class>
+ <widget class="QWidget" name="gabarito">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>439</width>
+    <height>45</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QComboBox" name="escalasComboBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <item>
+       <property name="text">
+        <string>ESCALAS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>25</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>100</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>50</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="tamanhosComboBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <item>
+       <property name="text">
+        <string>TAMANHOS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>4mm²</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.8x0.8mm²</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>25mm²</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1x1mm²</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.8mm</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="gabaritosComboBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <item>
+       <property name="text">
+        <string>GABARITOS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quadrado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hexágono</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="action1">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Gabarito</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
