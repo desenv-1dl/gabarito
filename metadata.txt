@@ -5,7 +5,11 @@ name=gabarito
 qgisMinimumVersion=2.0
 description=Verifica se a feição deve ser adquirida
 version=version Version 0.1
+<<<<<<< HEAD
 author=Felipe Diniz e Jossan costa
+=======
+author=Felipe Diniz
+>>>>>>> branch 'master' of https://github.com/desenv-1dl/gabarito
 email=me@hotmail.com
 ; end of mandatory metadata
 
